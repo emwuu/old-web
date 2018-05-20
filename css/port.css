@@ -1,14 +1,12 @@
 html, body {
 	overflow-x:hidden;
+	overflow-y:hidden;
 	margin: 0;
 	padding: 0;
 }
 
 .container {
 	background-image: url("../sky1.svg");
-/*	margin-left: 1%;
-	margin-right: 1%;*/
-/*	margin-top: 1%;*/
 	margin-bottom: 1%;
 	width: 100%;
 	height: 109vh;
@@ -153,8 +151,6 @@ li a {
 li a:hover {
 	display: block;
 	color: grey;
-	text-align: center;
-	padding: 16px;
 	text-decoration: none;
 }
 
