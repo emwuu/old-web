@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="200mm"
+   height="50mm"
+   viewBox="0 0 200 50"
+   version="1.1"
+   id="svg73"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   sodipodi:docname="Logo.svg">
+  <defs
+     id="defs67" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.35"
+     inkscape:cx="-27.142857"
+     inkscape:cy="560"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:pagecheckerboard="true"
+     width="50mm"
+     inkscape:window-width="1366"
+     inkscape:window-height="705"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata70">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-247)">
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot75"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:96px;line-height:1.25;font-family:'Yu Mincho Demibold';-inkscape-font-specification:'Yu Mincho Demibold, ';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none"
+       transform="matrix(0.26458333,0,0,0.26458333,0,235)"><flowRegion
+         id="flowRegion77"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:96px;font-family:'Yu Mincho Demibold';-inkscape-font-specification:'Yu Mincho Demibold, ';fill:#ffffff"><rect
+           id="rect79"
+           width="714.28571"
+           height="174.28572"
+           x="20"
+           y="34.330704"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:96px;font-family:'Yu Mincho Demibold';-inkscape-font-specification:'Yu Mincho Demibold, ';fill:#ffffff" /></flowRegion><flowPara
+         id="flowPara83" /></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot87"
+       style="font-style:normal;font-weight:normal;font-size:96.00000121px;line-height:1.25;font-family:'Yu Mincho Demibold';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#ff00ff;fill-opacity:1;stroke:none;-inkscape-font-specification:'Yu Mincho Demibold, ';font-stretch:normal;font-variant:normal;"
+       transform="matrix(0.26458333,0,0,0.26458333,0,247)"><flowRegion
+         id="flowRegion89"
+         style="font-size:96.00000121px;fill:#ff00ff;-inkscape-font-specification:'Yu Mincho Demibold, ';font-family:'Yu Mincho Demibold';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;"><rect
+           id="rect91"
+           width="722.85712"
+           height="151.42857"
+           x="17.142857"
+           y="23.262094"
+           style="font-size:96.00000121px;fill:#ff00ff;-inkscape-font-specification:'Yu Mincho Demibold, ';font-family:'Yu Mincho Demibold';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;" /></flowRegion><flowPara
+         id="flowPara93">SNAPSHOTS</flowPara></flowRoot>  </g>
+</svg>

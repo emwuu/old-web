@@ -1,8 +1,27 @@
+.post {
+	margin: 100px;
+}
+
+header {
+
+}
+
+.navbarLink {
+	text-decoration:none;
+	color:white;
+}
+
+.navbarLink:hover {
+	text-decoration:none;
+	color:white;
+}
+
 h1 {
 	text-align: center;
 	font-family: Baskerville, "Baskerville Old Face", "Goudy Old Style", Garamond, "Times New Roman", serif;
 	padding: 70px;
 }
+
 h3	{
 	text-align: center;
 
@@ -10,6 +29,18 @@ h3	{
 
 img {
 	margin: 50px;
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+  	width: 50%;
+}
+
+.video {
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+  	width: 50%;
+  	align-content: center;
 }
 
 .right-text{
@@ -20,7 +51,9 @@ img {
 }
 
 div {
-	margin: 50px;
+	margin-top: 50px;
+	margin-left: 50px;
+	margin-right: 50px;
 }
 
 .centered-img {
@@ -30,8 +63,39 @@ div {
 p {
 	margin: 50px;
 	line-height: 1px;
+	text-align: center;
 }
 
-			.rotate {
-				transform: rotate(90deg); 
-			 }
+.rotate {
+	transform: rotate(90deg); 
+}
+
+ul {
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	overflow:hidden;
+	background-color: #333;
+}
+
+li {
+	float:left;
+}
+
+li a {
+	display: block;
+	color:white;
+	text-align: center;
+	padding:14px 16px;
+	text-decoration:none;
+}
+
+li a:hover{
+	background-color:#111;
+}
+
+.next-link{
+	text-decoration: none;
+	position: absolute;
+	right: 20px;
+}

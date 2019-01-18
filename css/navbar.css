@@ -1,6 +1,25 @@
 .navbar{
 	align-content: right;
 	vertical-align: center;
+	padding: 25px;
+	margin-top: 30px;
+}
+
+
+#name{
+	font-family: 'Baloo Bhaijaan', cursive;
+	font-size:12em;
+	padding-top: 60px;
+}
+
+.navbar-brand{
+  transform: translateX(-50%);
+  left: 50%;
+  position: absolute;
+}
+
+#me-img {
+	padding: 400px;
 }
 
 ul {
@@ -13,6 +32,7 @@ ul {
 
 li {
 	float: right;
+	font-family: Raleway;
 }
 
 li a {
@@ -36,4 +56,12 @@ li a:active {
 	text-decoration: none;
 	text-align: center;
 	padding: 16px;
+}
+
+#divider {
+	height: 2px;
+	width: 100%;
+	align-content: center;
+	background: orange;
+	background: linear-gradient(90deg, hsl(0, 0%, 20%), hsl(0, 0%, 70%), hsl(0, 0%, 20%));
 }

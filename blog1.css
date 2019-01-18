@@ -1,0 +1,429 @@
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300);
+@charset "utf-8";
+/* CSS Document */
+
+/* ---------- FONTAWESOME ---------- */
+/* ---------- https://fortawesome.github.com/Font-Awesome/ ---------- */
+/* ---------- http://weloveiconfonts.com/ ---------- */
+
+@import url(http://weloveiconfonts.com/api/?family=fontawesome);
+
+*[class*="fontawesome-"]:before {
+  font-family: 'FontAwesome', sans-serif;
+}
+
+body {
+  margin:0px;
+  overflow-x:hidden;
+}
+
+
+/** { box-sizing: border-box; }*/
+.video-background {
+  /*grid-area: var(--fullGrid); */
+  position: relative;
+  top: 0; right: 0; bottom: 0; left: 0;
+  z-index: -99;
+  padding-bottom:45%;
+  height: 0;
+  overflow:hidden;
+  margin:0;
+
+  /* get rid of whitespace border */
+  margin-top: -10px;
+  margin-left: -10px;
+  margin-right: -10px;
+
+}
+.video-foreground,
+.video-background iframe {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 95%;
+  overflow:hidden;
+  pointer-events: none;
+  position:absolute;
+}
+
+.video-overlay {
+    /* Span the full grid */
+     /*grid-area: var(--fullGrid);*/ 
+    /* Center Content */
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    overflow:hidden;
+    position:absolute;
+
+
+    /* Semi-transparent background */
+    /*background-color: rgba(0, 0, 0, 0.55);*/
+    top: 0; right: 0; bottom:0; left:0;
+    /*height: 100%;*/
+}
+.vid{
+  margin-bottom: 100px;
+  background-color: #d7e5db;
+}
+
+#about{
+  position:absolute;
+  right: 0;
+  top: 0;
+  color: white;
+  font-size: 1.4vw;
+  margin-right: 40px;
+  font-weight:200;
+  /* border: 2px solid white;
+  padding: 5px 10px 5px 10px;*/
+  align-content: center;
+  text-align: center;
+  /*font-family: Ubuntu; font-style: normal; font-variant: normal; line-height: 20px;*/
+  font-family: 'Raleway', sans-serif;
+
+}
+
+
+@media (min-aspect-ratio: 16/9) {
+  .video-foreground { height: 300%; top: -100%; }
+}
+@media (max-aspect-ratio: 16/9) {
+  .video-foreground { width: 300%; left: -100%; }
+} 
+/*@media all and (max-width: 600px) {
+.vid-info { width: 50%; padding: .5rem; }
+.vid-info h1 { margin-bottom: .2rem; }
+}
+@media all and (max-width: 500px) {
+.vid-info .acronym { display: none; }
+}*/
+
+
+h1 {
+  /*font-family: 'Roboto', sans-serif;*/
+  font-family: 'Ubuntu', sans-serif;
+  font-style: bold;
+  font-size: calc(1.8em + 2.5vw);
+  font-weight: 700;
+  line-height: 0.5;
+  letter-spacing: 0.02em;
+  color: #fff;
+  text-shadow: 0.05em 0.05em 0.05em rgba(0, 0, 0, 0.4);
+}
+
+h2 {
+  font-size: 2vw;
+  /*font-family: Baskerville, "Baskerville Old Face", "Goudy Old Style", Garamond, "Times New Roman", serif;*/
+  font-family: Raleway; font-style: normal; font-variant: normal; line-height: 20px;
+  text-align: center;
+}
+
+h3 {
+  font-size: 1.4vw;
+  /*font-family: Baskerville, "Baskerville Old Face", "Goudy Old Style", Garamond, "Times New Roman", serif;*/
+  /* font-family: Copperplate, "Copperplate Gothic Light", fantasy; */
+    font-family: Raleway; font-style: normal; font-variant: normal; line-height: 20px;
+  text-align: center;
+}
+
+
+small {
+  font:300 18px 'Roboto', sans-serif;
+  color: white;  
+  display: block;
+  margin: 10px 0;
+}
+
+button {
+    color: black;
+    border: 2px solid #AFE3DC; /* Green */
+    font-size:1.5vw;
+    padding: 10px;
+    /* border-radius: 10px 10px 0px 0px; */
+    border-bottom: 2px solid #333;
+    font-family: Baskerville, "Baskerville Old Face", "Goudy Old Style", Garamond, "Times New Roman";
+}
+
+.on {
+      background-color: #AFE3DC;
+}
+
+.fpheading {
+  padding-bottom: 80px;
+  background-color: #d7e5db;
+  margin-left: 0px;
+  margin-right: 0px;
+  padding-top: 70px;
+}
+
+#button_select {
+  align-content: center;
+  position: static;
+
+}
+
+#main{
+  font-family: Baskerville, "Baskerville Old Face", "Goudy Old Style", Garamond, "Times New Roman", serif;
+  display: grid;
+  /* 0.5vh, 0.5vh with grid-template-rows unintended but cool */
+  grid-template-rows: "row1" 1fr "row2" 0.5fr;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+  grid-template-areas: "itemA itemB itemC" "textA textB textC";
+  position: static;
+  background-color: #d7e5db;
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+
+#main img{
+  border: 3px solid;
+  width: 90%;
+  padding: 7px;
+}
+
+.text{
+  font-family: Baskerville, "Baskerville Old Face", "Goudy Old Style", Garamond, "Times New Roman", serif;
+  text-align: center;
+  padding: 5px;
+}
+
+.fpost{
+  margin-left: 10px;
+   margin-right: 10px;
+  display:inline-block;
+  position:relative;
+}
+
+.cap{
+  padding-left:30px;
+  padding-right: 30px;
+  line-height: 20px;
+  text-align: center;
+  margin-left: 10px;
+   margin-right: 10px;
+}
+
+/* calendar */
+.time {
+  margin-left: -10px;
+  margin-right: -10px;
+  position: static;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.container {
+  position: relative;
+  height: 240px;
+  left: 800px;
+  top: -400px;
+  width: 510px;
+}
+
+/* ---------- CALENDAR ---------- */
+
+.calendar {
+  text-align: center;
+}
+
+.calendar header {
+  position: relative;
+}
+
+.calendar h2 {
+  text-transform: uppercase;
+}
+
+.calendar thead {
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.calendar tbody {
+  color: #7c8a95;
+}
+
+.calendar tbody td:hover {
+  border: 2px solid #00addf;
+}
+
+.calendar td {
+  border: 2px solid transparent;
+  border-radius: 50%;
+  display: inline-block;
+  height: 4em;
+  line-height: 4em;
+  text-align: center;
+  width: 4em;
+}
+
+.calendar .prev-month,
+.calendar .next-month {
+  color: #cbd1d2;
+}
+
+.calendar .prev-month:hover,
+.calendar .next-month:hover {
+  border: 2px solid #cbd1d2;
+}
+
+.current-day {
+  background: #00addf;
+  color: #f9f9f9;
+}
+
+.event {
+  cursor: pointer;
+  position: relative;
+}
+
+.event:after {
+  background: #00addf;
+  border-radius: 50%;
+  bottom: .5em;
+  display: block;
+  content: '';
+  height: .5em;
+  left: 50%;
+  margin: -.25em 0 0 -.25em;
+  position: absolute;
+  width: .5em;
+}
+
+.event.current-day:after {
+  background: #f9f9f9;
+}
+
+.btn-prev,
+.btn-next {
+  border: 2px solid #cbd1d2;
+  border-radius: 50%;
+  color: #cbd1d2;
+  height: 2em;
+  font-size: .75em;
+  line-height: 2em;
+  margin: -1em;
+  position: absolute;
+  top: 50%;
+  width: 2em;
+}
+
+.btn-prev:hover,
+.btn-next:hover {
+  background: #cbd1d2;
+  color: #f9f9f9;
+}
+
+.btn-prev {
+  left: 6em;
+}
+
+.btn-next {
+  right: 6em;
+}
+
+/* Highlight box */
+.highlight-box {
+  position:relative;
+  height:438px;
+  width: 750px;
+  left: 80px;
+  top: 80px;
+}
+
+.overlay {
+  position: absolute; 
+  bottom: 0; 
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1; 
+  width: 610px;
+  height: 50px;
+  transition: .5s ease;
+  opacity:1;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: #7c8a95
+  /*color: #cbd1d2;*/
+}
+
+.categories {
+  background-color: #AFE3DC;
+  position: static;
+  padding-bottom: 40px;
+  margin-bottom: 20px;
+  /* top: -300px; */
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 70px;
+  display: grid;
+  /* grid-template-rows: "row1" 1fr;*/
+  grid-template-columns: repeat(4, 0.25fr);
+  /* grid-gap: 22px; */
+  grid-template-areas: "catA catB catC catD"
+
+}
+
+.cat img{
+  border: 1px solid white;
+  padding: 7px;
+}
+
+.label{
+  position:relative;
+  background-color: #BE9878;
+  padding: 10px;
+  padding-left:40px;
+  padding-right:40px;
+  text-align: center;
+  align-content:center;
+  top: -15px;
+  left:80px;
+  font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+}
+
+.yellow{
+  background-color:#F6DD78;
+  margin-left: -10px;
+  margin-right: -10px;
+  height: 10px;
+}
+
+.green{
+  background-color:#91F678;
+  margin-left: -10px;
+  margin-right: -10px;
+  height:10px;
+  margin-top:10px;
+}
+
+.mint{
+  background-color:#83E1AF;
+  margin-left: -10px;
+  margin-right: -10px;
+  height:10px;
+    margin-top:10px;
+}
+
+.blue{
+  background-color: #83B5E1;
+  margin-left: -10px;
+  margin-right: -10px;
+  height:10px;
+  bottom:0;
+  position: static;
+  margin-top:10px;
+}

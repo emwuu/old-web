@@ -1,0 +1,103 @@
+
+img {
+	position: absolute;
+	z-index: 1;
+}
+
+h1{
+	font-size: 2em;
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+}
+
+h2{
+	padding-top: 200px;
+	font-size: 5em;
+	font-family: 'Raleway', sans-serif;
+}
+h3{
+	font-size: 4em;
+	font-family: 'Raleway', sans-serif;
+}
+
+.about-content{
+	position: static;
+	padding-bottom: 10%;
+}
+
+#me-img{
+	position:relative;
+	width: 30%;
+}
+
+#about-text {
+	position: relative;
+	margin-left: 45%;
+	width: 40%;
+	top: -400px;
+	height: 1vh; /* not sure if necessary */
+	font-size: 4em;
+	font-family: 'Raleway', sans-serif;
+	text-align: justify;
+}
+
+.responsive {
+	max-width: 100%;
+	height: auto;
+}
+
+.resume{
+	background-color:#f9ae98;
+	position: relative;
+	top: 900px;
+	padding-bottom: 900px;
+}
+
+.header {
+	text-align: center;
+	margin-bottom: 4%;
+}
+
+.exp-img{
+	margin-left: 15%;
+	position: static;
+	padding-bottom: 10%;
+}
+
+.exp-heading{
+	margin-left: 10px;
+	width: 85%;
+}
+
+.exp-heading p {
+	font-size: 4em;
+}
+
+
+.table-text{
+	padding-left: 12%;
+}
+
+table {
+	margin-left: 11%;
+}
+
+table tr {
+	padding-bottom: 20%;
+}
+
+/*.resume-content{
+	position: static;
+}
+
+.resume-header{
+	display: inline-block;
+	width: 15%;
+	margin-left: 5%;
+	vertical-align: center;
+}
+
+.resume-text{
+	margin-left: 15%;
+	display: inline-block;
+}*/
