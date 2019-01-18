@@ -1,65 +1,153 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<link data-require="bootstrap-css@3.3.6" data-semver="3.3.6" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.css" />
-	<link href="css/port.css" rel="stylesheet">
-	<link href="css/animate.css" rel="stylesheet" type="text/css">
-</head>
 
-<body>
-	<section>
-	<div class="container" >
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link data-require="bootstrap-css@3.3.6" data-semver="3.3.6" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.css" />
+		<link href="https://fonts.googleapis.com/css?family=Baloo+Bhaijaan|Open+Sans|Raleway|Source+Sans+Pro" rel="stylesheet">
+		<!--link href="css/animate.css" rel="stylesheet" type="text/css"-->
+		<link href="css/navbar.css" rel="stylesheet" type="text/css">
+		<link href="css/about.css" rel="stylesheet" type="text/css">
+	</head>
+	
+	<body>
 		<nav class="navbar navbar-expand-sm">
+			<span class="navbar-brand navbar-nav">Emily Wu</span>
 			<ul>
 				<li><a class="nav-item" href="blog1.html">Blog</a></li>
-				<li><a class="nav-item" href="#">Contact</a></li>
-				<li><a class="nav-item" href="resume.html">Resume</a></li>
+				<li><a class="nav-item" href="#resumesum">Resume</a></li>
 				<li><a class="nav-item" href="about.html">About</a></li>
 			</ul>
 		</nav>
+		<div id="divider"></div>
 
-		<img class= "animated slideOutRight" src="pink-cloud-ver2.svg" id="cloud"/>
-		<img class= "animated slideOutRight3" src="pink-cloud3.svg" id="smallcloud" />
-		<div class="text-container" id="myname">
-			<text> Emily Wu </text>
+		<div class="about-content">
+			<div >
+				<img id="me-img" src="images/me.png" >
+			</div>
+			<div id="about-text">
+				<h1> Hello There!</h1><br>
+				<p> I am an aspiring UX researcher with a background in software development. <Br>
+				Whether it be through development or through research, my endeavor has always been the same: to deliver value to users through a comfortable and intuitive experience. <br><br> I love gathering insight on human behavior and uncovering how and why (and where and when- context is important!) people use technology to achieve their goals.
+				<br><br>
+				Other things I love: <br>
+				Jogging on crisp, partly cloudy days <br>
+				Noodling around on the piano and writing music <br>
+				Cake. <br><br>
+				Want to talk about UX, effective research methodologies, or music composition? I'm all ears! 
+				</p>
+			</div>
 		</div>
-		<img class= "animatedslow slideOutRight2" src="pink-cloud2.svg" id="cloud">
-		<img class= "animatedslow slideOutRight4" src="pink-cloud4.svg" id="smallcloud2" />
-		<img class= "animated slideOutRight5" src="pink-cloud4.svg" id="smallcloud2" />
-		<div> <img src="mountain.svg" id="mountains"/></div>
-	</div>
-	</section>
 
-	<!--<section class="aboutme">
-		<h1> Nice to meet you, I'm Emily! </h1> 
-		<div class="left"> <img src="small_logo.svg" id="logo"/> </div>
-		<div class="abouttext">
-			<br>
-			<p>
-			I am a computer science and economics student at the University of California, San Diego. I'm a Californian all the way through, based in San Diego and Palo Alto. I am currently searching for a full-time position in full stack development. Thanks for stopping by! </p>
-		</div>
-	</section>
+		<section id="resume">
+			
+			<div class="resume"> 
+				<section id="resumesum">
+				<h2 class="header"> A Summary of My Experiences </h2> <br>
+				<div class="button-div"><a href="resume.pdf" download><button class="resume-button">Download resume </button></a></div>
+				<table>
 
-	<section class="resumecontainer">
-	<div> 
-		<p> Here's a little bit of my background... </p>
-	</div>
-	</section>
+					<thead style='display:none;'>
+    					<th style="width:30%;">Icon</th>
+    					<th class="table-text" style="width:70%; ">Description</th>
+    				</thead>
 
-	<div class="skills-container">
-	</div>
+					<tbody>
+						<tr>
+							<td><div><img class="exp-img" src="images/ucsd.png"></div></td>
+							<td class="table-text">
+								<div class="exp-heading">
+									<h3> <b>University of California, San Diego</b> </h3>
+									<p> B.S. Computer Science, minor in Economics<br>Honors: <i> Magna Cum Laude</i>, Provost Honors, Caledonian Honor Society<br><br></p>
+									<p>Turned down top business schools to study economics here. Left with a computer science degree. UCSD provided resources for whichever path I chose to take. I fell in love on move-in day, because I could see the ocean from our freshman dorm room.  I fell harder for its supportive computer science community; we build each other up.  I had the opportunity to transfer to my dream college, but I stayed. There was never a boring day, though there were many challenging ones- and there were always more opportunities.
+									</p>
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<td><div><img class="exp-img" src="images/tohoku.png"></div></td>
+							<td class="table-text">
+								<div class="exp-heading">
+									<h3> <b>Ito Laboratory</b> </h3>
+									<p><i>Researcher</i></p><br>
+									<p>I conducted a study in machine learning at the Ito Laboratory, working on using CNNs to classify facial expression in video. Through my research, I developed a program in Python to perform real time facial expression classification. The most fun part? Recruiting 20 Japanese university students to act on camera for my test data. Through my research all my loves came together: computer vision, communicating technical concepts, and observing people interact with technology. 
+									</p>
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<td><div><img class="exp-img" src="images/abalta.png"></div></td>
+							<td class="table-text">
+								<div class="exp-heading">
+									<h3> <b>Abalta Technologies</b> </h3>
+									<p><i>Software Engineering Intern</i></p><br>
+									<p>I worked on Abalta's product team specializing in Android mobile development. I helped make the Android app available in 6 different languages, through soft keyboard implementation and string localization. In the process, I interviewed an Arabic speaker to make sure the most important diacritics were represented. Learned a little bit about Arabic like I thought I always wanted to, and realized it was harder than I ever thought. I also proposed and implemented Android flavors,in order to support application customizations for different clients. </p>
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<td><div><img class="exp-img" src="images/cse.png"></div></td>
+							<td class="table-text">
+								<div class="exp-heading">
+									<h3> <b>UCSD Computer Science and Engineering Department</b> </h3>
+									<p><i>Tutor</i></p><br>
+									<p>I tutored CSE 8A + 8B, UCSD's introductory programming class, as well UCSD's gateway upper division course, CSE 100 - Advanced Data Structures under Professor Paul Cao. Tutors were a critical part of my academic experience, I'm glad I got the chance to give back! As a tutor, I held lab hours and helped students complete their programming assignments by discussing logic, explaining concepts, and helping them debug. In addition, I wrote and published supplementary material and practice problems to aid beginning students in grasping the material.</p>
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<td><div><img class="exp-img" src="images/csgc.png"></div></td>
+							<td class="table-text">
+								<div class="exp-heading">
+									<h3> <b>California Space Grant Consortium</b> </h3>
+									<p><i>Arduino Computer Development and Programming Intern </i></p><br>
+									<p> I was an intern at the California Space Grant Consortium, a NASA sponsored program to understand and develop aerospace resources. We built sensors, soldered components, and programmed Arduino microcontrollers to attach to the payload of near space balloons. The sensor package we built recorded data on temperature, pressure, humidity, and UV exposure, and was used as a tool for research. </p>
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<td><div><img class="exp-img" src="images/bofi.png"></div></td>
+							<td class="table-text">
+								<div class="exp-heading">
+									<h3> <b>BofI Federal Bank</b> </h3>
+									<p><i>Operations and Analytics Intern </i></p><br>
+									<p> I spent my first half of college aiming to be a certified public accountant. This was an effect of that desire. Through this internship I got a taste of the income property lending market, and issued $5 MM worth of letters of intent (LOIs) after analyzing a variety of risk factors. I trained a machine learning program that tagged documents, differentiating between appraisals, tax returns, escrow paperwork, etc. I also got exposure to business analytics in the workplace, working with SQL queries and building reports. </p>
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<td><div><img class="exp-img" src="images/cs.png"></div></td>
+							<td class="table-text">
+								<div class="exp-heading">
+									<h3> <b>CollegeSpring</b> </h3>
+									<p><i>Instructor and Mentor </i></p><br>
+									<p> I worked as an instructor at CollegeSpring, which helps even the income-educational achievement gap by making college prep services available to students from low-income backgrounds. I taught SAT prep in a classroom setting and mentored students through their college applications. I learned to use my empathy as a student to invigorate and involve my students. During the following quarter of college, I also used my newfound empathy for educators to increase the value of my own learning. I finally know what drives professors &amp; teachers nuts after being subject to it myself (To my teachers: I'm so sorry!) </p>
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<td><div><img class="exp-img" src="images/int.png"></div></td>
+							<td class="table-text">
+								<div class="exp-heading">
+									<h3> <b>International Rescue Committee</b> </h3>
+									<p><i> Tax Preparation Intern </i></p><br>
+									<p> This was another effect of me aiming for a career in public accountancy. However, it remains as one of my most treasured experiences. I had the pleasure of interacting with, interviewing, and filling out tax returns for refugees and members of the greater San Diego community. I had the privilege of working with kind staff who were patient in guiding a teenage me. I don't do anything with taxes now (beyond my civic duty, of course), but each treasured encounter I had through this experience has helped shape my desire to make a difference in the world by engaging with and serving others. </p>
+								</div>
+							</td>
+						</tr>						
+						</tbody>
+				</table>
+				</section>
 
-	<div class="contact-container">
-		<a class="nav-item" href="https://www.linkedin.com/in/emily-wu-302944b4/">Linkedin</a>
-		<a class="nav-item" href="https://github.com/emwuu/"> Github </a>
-		<h1>Drop me an email at wu.emily23@gmail.com</h1>
-	</div>
 
-	<div class="extra-container">
-	</div>-->
 
-	<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
-</body>
+			</div>
+
+		</section>
+		
+	</body>
+	
+	<script>
+	</script>
+
 </html>
