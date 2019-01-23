@@ -1,6 +1,8 @@
 .navbar{
 	align-content: right;
 	vertical-align: center;
+	background-color: #f9ae98;
+	border-bottom: 5px solid #000;;
 }
 
 .navbar-brand{

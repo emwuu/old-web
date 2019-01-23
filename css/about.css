@@ -39,6 +39,7 @@ h1{
 .resume{
 	position: relative;
 	background-color:#f9ae98;
+	border-top: 5px solid #000;
 }
 
 
